@@ -1,0 +1,132 @@
+.Img
+{
+    text-align: left;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+.lnk
+{
+    color: hotpink;
+}
+.lnk_1
+{
+    color: blueviolet;
+}
+.lnk_2
+{
+    color: rgb(4, 200, 128);
+}
+.titl
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading
+{
+    border-radius: 10px 25px;
+    background-color: rgb(213, 216, 220);
+}
+.heading .heading_stuff 
+{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    display : flex;
+    flex-direction : row;   
+}            
+.heading .heading_stuff .heading_image 
+{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: left;
+}
+.heading .heading_stuff .heading_bio
+{
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: left;
+}
+.info
+{
+    overflow: hidden;
+    border-collapse: separate;
+    border-radius: 25px 10px;
+    background-color: rgb(40, 42, 53);
+}
+.info .info_stuff
+{
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+    background-color: rgb(40, 42, 53);
+    display : flex;
+    flex-direction : row;
+    color: wheat;
+}
+.info .info_stuff .info_edu
+{
+    background-color: rgb(40, 42, 53);
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+.info .info_stuff .info_exp
+{
+    background-color: rgb(40, 42, 53);
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+.info .info_stuff .info_ref
+{
+    background-color: rgb(40, 42, 53);
+    margin-right: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+}
+.tab_1
+{
+    padding: 10px;
+}
+.tab_2
+{
+    padding: 10px;
+}
+.tab_3
+{
+    padding: 10px;
+}
+th, td
+{
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid rgb(253, 254, 254);
+}
+
+td:hover {background-color: wheat;}
+
+body
+{
+    background-color: rgb(153, 153, 255);
+    
+}
+.btn{
+    width:10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: hotpink;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+input[type=submit]:hover {
+    background-color: rgb(20, 74, 110);
+  }

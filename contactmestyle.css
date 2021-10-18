@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(152, 185, 233);
+  }
+  .columnleft {
+    float: left;
+    width: 40%;
+    padding: 15px ;
+    margin-left: 60px;
+  }
+  .columnright {
+    float: left;
+    width: 60%;
+    height:auto;
+    padding: 15px ;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .formback{
+      background-color: rgb(255, 255, 255);
+      border-radius: 25px;
+      box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 4), 0 6px 20px 0 rgba(4, 4, 4, 4);
+       
+  }
+  .contentleft{
+    padding-left: 40px;
+}
+  .side{
+      padding-left: 150px;
+  }
+  .alignment{
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    margin-left: 250px;
+  }
+  .img{
+      background-color: rgb(91, 91, 211);
+      width: 602px;
+      height:100px;
+  }
+  .head{
+      
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(77, 69, 121) ;
+  }
+  .btnall{
+      padding-bottom: 20px;
+      padding-left: 40px;
+  }
+  .btn{
+      width:70%;
+      margin-left: 50px;
+      background-color: rgb(4, 200, 128);
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 12px;
+  }
+  .btn2{
+    width:20%;
+    margin-left: 10px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
+  .p1{
+      padding-top: 40px;
+      padding-left: 20px;
+  }
+  input[type=text],input[type=email] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+  input[type=email] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+  }
+  textarea{
+      margin-top: 10px;
+      width:90%;
+      resize: vertical;
+      box-sizing: border-box;
+      border-radius:7px;
+  }
+  input[type=submit]:hover {
+    background-color: rgb(20, 74, 110);
+  }
+  .text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: rgb(77, 69, 121) ;
+  }
+  .content{
+    width:40%;
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(4, 4, 4, 4), 0 6px 20px 0 rgba(4, 4, 4, 4);    
+  }
+  

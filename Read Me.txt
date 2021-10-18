@@ -1,0 +1,4 @@
+1. To run the files properly open both the .html and .css files in a text editor before viewing.
+2. The links in this website are offline as i dont own a server or a domain so the links need to reset before being used. 
+3. Reset the links by replacing the old addresses with the new addresses of the pages in the top nav bar in webpage.html.
+4. The side bar used in the webpage is a sticky sidebar. It can be made to hold its position along the website by setting the position to sticky and changing a few measurements like height.
